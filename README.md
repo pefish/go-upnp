@@ -78,3 +78,8 @@ func main() {
 Port forwarding and external IP discovery are two of the most common tasks required when creating a P2P network. This requires talking to your local router, usually via the UPnP protocol. There are a number of existing packages that provide this functionality, but I found all of them lacking in some respect. The most robust implementation I found was huin's [goupnp](http://github.com/huin/goupnp), but its interface was clunky and required more boilerplate than I felt was necessary. So this package is really just a wrapper around the goupnp library, specifically tailored to the use cases listed above.
 
 This makes the name a bit of a misnomer, I know; UPnP is much broader than port forwarding. But `upnp` is much more search-friendly than `igdman` (Internet Gateway Device Manager). If you think of something better, I'd love to hear it.
+
+
+## 原理介绍
+
+http://www.h3c.com/cn/d_201206/922127_30005_0.htm
