@@ -33,7 +33,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NebulousLabs/fastrand"
+	"gitlab.com/NebulousLabs/fastrand"
 	"github.com/pefish/go-upnp/goupnp"
 	"github.com/pefish/go-upnp/goupnp/dcps/internetgateway1"
 )
